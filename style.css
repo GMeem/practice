@@ -1,0 +1,28 @@
+* {
+  padding:0;
+  margin: 0;
+}
+
+body{
+  background: url("background.png");
+  background-repeat: repeat;
+  height: 50px;
+}
+
+.main{
+  
+  width: 500 px;
+  height: 200px;
+  margin: 200px auto;
+  position: relative;
+  
+}
+
+
+.digitalClock{
+  
+  text-align: center;
+  font-size: 200px;
+  font-family: 'impact', cursive;
+  height: 100%;
+}
