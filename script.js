@@ -12,6 +12,8 @@ function digitalClock(){
   }
   if (hr == 0 ) {
     hr = 12
+  } else if(hr > 12){
+    hr = hr - 12
   }
 
   document.getElementById("hr").innerHTML = hr;
